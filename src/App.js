@@ -3,18 +3,12 @@ import Card from "./components/Card";
 import Header from "./components/Header";
 import './App.css'
 function App() {
-  
-  React.useEffect(() => {
-    fetch('https://api.codedigger.tech/auth/profile/shivamsinghal1012/?platform=codeforces')
-    .then(res=> res.json())
-    .then(data=> console.log(data.result));
-  },[]);
 
   return (
     <>
       <Header />
       <main className="main-section">
-      <Card />
+      <Card/>
       </main>
     </>
   );
