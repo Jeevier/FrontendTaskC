@@ -1,9 +1,9 @@
-#root{
-    height:100vh;
+#root {
+  height: 100vh;
 }
-.main-section{
-    height:calc(100% - 50px);
-    display:flex;
-    justify-content:center;
-    align-items: center;
+.main-section {
+  height: calc(100% - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
